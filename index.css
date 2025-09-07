@@ -1,0 +1,141 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main container for the application */
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #0056b3;
+    text-align: center;
+}
+
+/* Styling for the form container */
+.form-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+/* Styling for form groups (label + input) */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+/* Styling for input fields */
+.form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+/* Styling for form buttons */
+.form-buttons {
+    text-align: right;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+/* Add Student button */
+#add-btn {
+    background-color: #28a745; /* Green */
+}
+
+#add-btn:hover {
+    background-color: #218838;
+}
+
+/* Update Student button */
+#update-btn {
+    background-color: #007bff; /* Blue */
+}
+
+#update-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the student table */
+.table-container {
+    margin-top: 20px;
+}
+
+#student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#student-table th, #student-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#student-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Add alternating row colors for better reading */
+#student-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Action buttons within the table */
+.action-btn {
+    margin-right: 5px;
+}
+
+.edit-btn {
+    background-color: #ffc107; 
+    color: #333;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
